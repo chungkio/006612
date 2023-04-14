@@ -1,6 +1,6 @@
 # Note
  ##Backend
-1. Active venv
+1. Activate venv
   cd to venv/Scripts/activate
 2. Migrate database
   python manage.py makemigrations
