@@ -1,5 +1,16 @@
 # Note
  ##Backend
+ change
+ DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'app_discount',
+        'USER': 'postgres',
+        'PASSWORD': '19001006',
+        'HOST': '127.0.0.1',
+        'PORT': '1808',
+    }
+}
 1. Activate venv
   cd to venv/Scripts/activate
 2. Migrate database
