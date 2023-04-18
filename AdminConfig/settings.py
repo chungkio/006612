@@ -88,11 +88,11 @@ WSGI_APPLICATION = 'AdminConfig.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'app_discount',
+        'NAME': 'table_name_database',
         'USER': 'postgres',
-        'PASSWORD': '19001006',
+        'PASSWORD': 'password',
         'HOST': '127.0.0.1',
-        'PORT': '1808',
+        'PORT': '1808',// you can change port 
     }
 }
 
