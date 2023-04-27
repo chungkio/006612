@@ -1,5 +1,7 @@
 # Note
  ##Backend
+ use postgres
+ 
  change
  DATABASES = {
     'default': {
